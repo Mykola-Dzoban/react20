@@ -1,0 +1,38 @@
+.singIn-wrapper, .singUp-wrapper{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.signIn-form, .signUp-form{
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.checkbox-wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.userFullname{
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  align-items: center;
+}
+
+.additional-links{
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
